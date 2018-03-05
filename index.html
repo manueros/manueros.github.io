@@ -1,1 +1,261 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<title>Matrimonio Ros&Manu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="css/main.css">
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-black w3-center">
+    
+    <div class="w3-row">
+      <div class="w3-col" style="width:15%"><p>
+        <img class="w3-round-large logo" src="images/fiore.png">
+      </p></div>
+      <div class="w3-col" style="width:70%">
+        <div class="title">Manu & Ros</div>
+        <div class="subtitle">22 Aprile 2018</div>
+      </div>
+      <div class="w3-col" style="width:15%"><p>
+        <img class="w3-round-large logo" src="images/tulipano.png">
+      </p></div>
+    </div>
+    
+    <img class="w3-round-large" src="images/wedding_couple.jpg" style="width:100%">
+    <div class="landing">
+      <ul class="w3-center">
+        <li><span id="days"></span>giorni</li>
+        <li><span id="hours"></span>ore</li>
+        <li><span id="minutes"></span>minuti</li>
+        <li><span id="seconds"></span>secondi</li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:16%" class="w3-bar-item w3-button">Home</a>
+    <a href="#wedding" style="width:16%" class="w3-bar-item w3-button">La Cerimonia</a>
+    <a href="#party" style="width:16%" class="w3-bar-item w3-button">Il Ricevimento</a>
+    <a href="#gift" style="width:16%" class="w3-bar-item w3-button">Lista Nozze</a>
+    <a href="#photo" style="width:16%" class="w3-bar-item w3-button">Album</a>
+    <a href="#hotel" style="width:16%" class="w3-bar-item w3-button">Hotel</a>
+  </div>
+</div>
+
+<!-- Event Description -->
+<div class="w3-container w3-padding-64 w3-light-grey w3-grayscale-min" id="wedding">
+  <div class="w3-content w3-center">
+    <h1 class="w3-text-grey"><b>La cerimonia</b></h1>
+    <img class="w3-round" src="images/comune.jpg" style="width:65%">
+    <p class="w3-left-align"><i>
+      Ci sposeremo presso la Sala Consiliare del Comune di Castel San Pietro Terme alle ore 11,00 del 22 Aprile 2018. 
+      La Sala probabilmente non riuscirà a contenere tutti, chi vorrà, potrà aspettarci nell’atrio o all’uscita.
+      Vi segnaliamo che proprio il 21 e 22 Aprile a Castel San Pietro si terrà “Very Slow Italy”, 
+      una  manifestazione dedicata alla lentezza in ambito enogastronomico. 
+      In paese ci sarà sicuramente una discreta affluenza di gente, vi indichiamo quindi alcune alternative per 
+      parcheggiare con i relativi percorsi per raggiungere il Comune.
+    </i></p><br>
+    <div class="w3-row">
+      <div class="w3-third">
+        <h2>P1</h2>
+        <p><a href="https://goo.gl/maps/GHsc5yUqDPv">
+          <img class="maps" alt="P1" src="images/P1.jpg" style="width:90%">
+        </a></p>
+        <p>Reception & Dinner - 5:00pm</p>
+      </div>
+      <div class="w3-third">
+        <h2>P2</h2>
+        <p><a href="https://goo.gl/maps/3k936K7PyAN2">
+          <img class="maps" alt="P2" src="images/P2.jpg" style="width:90%">
+        </a></p>
+        <p>Some where, some address</p>
+      </div>
+      <div class="w3-third">
+        <h2>P3</h2>
+        <p><a href="https://goo.gl/maps/yb4AqAfkfsK2">
+          <img class="maps" alt="P3" src="images/P3.jpg" style="width:90%">
+        </a></p>
+        <p>Some where, some address</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-grayscale-min w3-center" id="party">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>Il Ricevimento</b></h1>
+    <img class="w3-round-large" src="images/lagaiana.jpg" style="width:65%">
+    <p class="w3-left-align"><i>
+      Il pranzo si terrà presso il B&B La Gaiana di Castel San Pietro Terme a 4,5 km dal Comune. 
+      Qui festeggeremo assieme a voi con un aperitivo di benvenuto e uno sfizioso buffet, ascoltando musica e 
+      chiacchierando nel bellissimo parco che fa da cornice alla struttura de La Gaiana. Vi preghiamo di segnalarci almeno 
+      3 settimane prima delle nozze eventuali allergie o intolleranze per poterlo comunicare in tempo al ristorante, 
+      che provvederà a organizzare pietanze alternative adatte alle vostre esigenze. Mandate pure una mail a
+      emanuela.barzanti@gmail.com
+      La location è dotata di ampio parcheggi. Nel caso di pioggia (ma noi speriamo ci sia il sole !!) 
+      si potrà parcheggiare lungo la via privata del B&B, il cui personale provvederà a segnalare opportunamente quale opzione scegliere.
+    </i></p><br>
+    
+    <iframe src="http://www.meteoam.it/widget/localita/3070" class="meteo" width="400" height="315" scrolling="no"></iframe>
+    
+  </div>
+</div>
+
+<!-- Gift -->
+<div class="w3-container w3-padding-64 w3-light-grey w3-grayscale-min w3-center" id="gift">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>Lista Nozze</b></h1>
+    <p class="w3-left-align"><i>
+      Qui trovate una lista nozze a cui potrete contribuire, anche se il regalo migliore che potrete farci 
+      è festeggiare assieme a noi il nostro giorno più bello.
+    </p><br>
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <img class="w3-round-large" src="images/porticato.jpg" style="width:100%"> 
+      </div>
+      <div class="w3-container w3-twothird w3-left-align">
+        <i>Come diversi di voi oramai sapranno, da molti mesi stiamo cercando di realizzare un porticato attorno a casa. 
+          Ora siamo in dirittura di arrivo ed il sogno sta per diventare realtà, se volete aiutarci a realizzarlo, 
+          di seguito trovate qualche suggerimento.</i>
+      </div>
+    </div>
+    <br>
+    <div class="w3-row">
+      <div class="w3-container w3-twothird w3-left-align">
+        <i>
+          Cuba è una meta che ci sarebbe sempre piaciuto raggiungere e ora finalmente arriva anche per noi il momento del meritato riposo, 
+          al sole caldo dei caraibi, tra i profumi e i colori di città storiche e natura rigogliosa e ballando al ritmo della musica, 
+          costante sottofondo tipico cubano. Se volete partecipare (virtualmente!) al nostro viaggio, qui sotto trovate una lista delle 
+          cose che abbiamo in programma di fare.</i>
+      </div>
+      <div class="w3-container w3-third">
+        <img class="w3-round-large" src="images/cuba.jpg" style="width:100%">  
+      </div>
+    </div>
+    <br>
+    <table id="gift">
+      <tr>
+        <th></th>
+        <th>Regalo</th>
+        <th>Disponibile</th>
+        <th>Prezzo</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/aereo.jpg" style="width:100%"></td>
+        <td>Mandaci a Cuba (in aereo)</td>
+        <td>1.050€</td>
+        <td>1.050€</td>
+        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/HotelNacional.jpg" style="width:100%"></td>
+        <td>Una notte al mitico Hotel Nacional de l'Havana</td>
+        <td>400€</td>
+        <td>400€</td>
+        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/CayoLargo.jpg" style="width:100%"></td>
+        <td>Volo verso la romantica isola di Cayo Largo</td>
+        <td>220€</td>
+        <td>220€</td>
+        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/BuenaVista.jpg" style="width:100%"></td>
+        <td>Cena allo storico Buena Vista Social Club di Cuba</td>
+        <td>80€</td>
+        <td>80€</td>
+        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/bodeguita.jpg" style="width:100%"></td>
+        <td>Pranzo con aperitivo di mojito alla Bodeguita del Medio</td>
+        <td>40€</td>
+        <td>40€</td>
+        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/colonna.jpg" style="width:30%"></td>
+        <td>Regalaci le colonne del porticato</td>
+        <td>1.470€</td>
+        <td>1.470€</td>
+        <td class="w3-center"><a href="#id01" class="w3-button gbutton">Regala</button></td>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/mattoni.jpg" style="width:60%"></td>
+        <td>Finanzia i muri del porticato</td>
+        <td>1.700€</td>
+        <td>1.700€</td>
+        <td class="w3-center"><button onclick="document.getElementById('id01').style.display='block'" class="w3-button gbutton">Regalare</button></td>
+      </tr>
+      <tr>
+        <td class="w3-center"><img class="w3-round-large" src="images/finestra.jpg" style="width:100%"></td>
+        <td>Aiutaci ad acquistare le 3 porte finestre scorrevoli</td>
+        <td>2.400€</td>
+        <td>2.400€</td>
+        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- Photo -->
+<div class="w3-container w3-padding-64 w3-grayscale-min w3-center" id="photo">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>Album delle Foto</b></h1>
+    <img class="w3-round-large" src="images/lagaiana.jpg" style="width:65%">
+    <p class="w3-left-align"><i>
+      Dato che non siamo amanti delle fotografie in posa, abbiamo pensato che il nostro fotografo ufficiale potreste essere voi!<br>
+      Sarà bello raccogliere attraverso il vostro sguardo i momenti più belli di questa giornata, quindi chi avrà voglia e vorrà divertirsi a fare delle fotografie potrà caricarle su instagram, qui
+      Noi provvederemo poi a caricarne una selezione su questa pagina che diventerà il nostro album ricordo di matrimonio.
+    </i></p><br>
+  </div>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">CAN YOU COME?</h1>
+      <p>We really hope you can make it.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely, John & Jane</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115110135-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115110135-1');
+</script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
