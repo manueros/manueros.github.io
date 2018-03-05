@@ -1,0 +1,150 @@
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing {
+  background-color: white;
+  text-align: center;
+}
+
+.title {
+  background-color: white;
+  text-align: center;
+  font-size: 5.0vw;
+}
+
+.subtitle {
+  background-color: white;
+  text-align: center;
+  font-size: 3.0vw;
+}
+
+.logo {
+  background-color: white;
+  padding-top: 15%;
+  width: 100%;
+}
+
+ul {
+  margin-left: -2.5em;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5vw;
+  width: 10vw;
+  text-transform: uppercase;
+  color: black;
+}
+
+li span {
+  display: block;
+  font-size: 4.5vw;
+}
+
+
+
+
+#gift {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+#gift td, #gift th {
+    /*border: 1px solid #ddd;*/
+    padding: 8px;
+}
+
+#gift tr:nth-child(even){background-color: #f2f2f2;}
+
+#gift tr:hover {background-color: #ddd;}
+
+#gift td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#gift th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.meteo {
+  background-color: transparent;
+  border: 0px none transparent;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.meteo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  background-color: transparent;
+}
+
+
+.gbutton {
+  border-radius: 8px;
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+}
+
+.maps {
+  border: 2px solid blue;
+}
+
+/* Bigger than 325 */
+/*
+@media (min-width: 320px) {
+  li {
+    font-size: 1.0em;
+    width: 6em;
+  }
+
+  li span {
+    font-size: 2.0rem;
+  }
+}
+*/
+/* Bigger than 750 */
+/*
+@media (min-width: 750px) {
+  li {
+    font-size: 1.5em;
+    width: 7em;
+  }
+
+  li span {
+    font-size: 3.0rem;
+  }
+}
+*/
+
+/* Bigger than 1000 */
+/*
+@media (min-width: 1000px) {
+  li {
+    font-size: 2.0em;
+    width: 7em;
+  }
+
+  li span {
+    font-size: 4.0rem;
+  }
+}
+*/
