@@ -48,18 +48,15 @@ li span {
   font-size: 4.5vw;
 }
 
-
-
-
 #gift {
-    border-collapse: collapse;
-    width: 100%;
-    text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
 }
 
 #gift td, #gift th {
-    /*border: 1px solid #ddd;*/
-    padding: 8px;
+  /*border: 1px solid #ddd;*/
+  padding: 8px;
 }
 
 #gift tr:nth-child(even){background-color: #f2f2f2;}
@@ -67,16 +64,15 @@ li span {
 #gift tr:hover {background-color: #ddd;}
 
 #gift td {
-    padding-top: 12px;
-    padding-bottom: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 #gift th{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    
-    background-color: #4CAF50;
-    color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
 }
 
 
@@ -106,6 +102,49 @@ li span {
 
 .maps {
   border: 2px solid blue;
+}
+
+
+@media screen and (max-width: 600px) {
+  #gift {
+    border: 0;
+  }
+  #gift caption {
+    font-size: 1.3em;
+  }
+  #gift thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  #gift tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  #gift td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  #gift td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #gift td:last-child {
+    border-bottom: 0;
+  }
 }
 
 /* Bigger than 325 */

@@ -103,9 +103,6 @@
       La location è dotata di ampio parcheggi. Nel caso di pioggia (ma noi speriamo ci sia il sole !!) 
       si potrà parcheggiare lungo la via privata del B&B, il cui personale provvederà a segnalare opportunamente quale opzione scegliere.
     </i></p><br>
-    
-    <iframe src="http://www.meteoam.it/widget/localita/3070" class="meteo" width="400" height="315" scrolling="no"></iframe>
-    
   </div>
 </div>
 
@@ -142,69 +139,73 @@
     </div>
     <br>
     <table class="gift">
-      <tr>
-        <th></th>
-        <th>Regalo</th>
-        <th>Disponibile</th>
-        <th>Prezzo</th>
-        <th></th>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/aereo.jpg" alt="aereo" style="width:100%"></td>
-        <td>Mandaci a Cuba (in aereo)</td>
-        <td>1.050€</td>
-        <td>1.050€</td>
-        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/HotelNacional.jpg" alt="hotel" style="width:100%"></td>
-        <td>Una notte al mitico Hotel Nacional de l'Havana</td>
-        <td>400€</td>
-        <td>400€</td>
-        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/CayoLargo.jpg" alt="CayoLargo" style="width:100%"></td>
-        <td>Volo verso la romantica isola di Cayo Largo</td>
-        <td>220€</td>
-        <td>220€</td>
-        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/BuenaVista.jpg" alt="BuenaVista" style="width:100%"></td>
-        <td>Cena allo storico Buena Vista Social Club di Cuba</td>
-        <td>80€</td>
-        <td>80€</td>
-        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/bodeguita.jpg" alt="bodeguita" style="width:100%"></td>
-        <td>Pranzo con aperitivo di mojito alla Bodeguita del Medio</td>
-        <td>40€</td>
-        <td>40€</td>
-        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/colonna.jpg" alt="colonna" style="width:30%"></td>
-        <td>Regalaci le colonne del porticato</td>
-        <td>1.470€</td>
-        <td>1.470€</td>
-        <td class="w3-center"><a href="#id01" class="w3-button gbutton">Regala</a></td>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/mattoni.jpg" alt="mattoni" style="width:60%"></td>
-        <td>Finanzia i muri del porticato</td>
-        <td>1.700€</td>
-        <td>1.700€</td>
-        <td class="w3-center"><button onclick="document.getElementById('id01').style.display='block'" class="w3-button gbutton">Regalare</button></td>
-      </tr>
-      <tr>
-        <td class="w3-center"><img class="w3-round-large" src="images/finestra.jpg" alt="finestra" style="width:100%"></td>
-        <td>Aiutaci ad acquistare le 3 porte finestre scorrevoli</td>
-        <td>2.400€</td>
-        <td>2.400€</td>
-        <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
-      </tr>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Regalo</th>
+          <th>Disponibile</th>
+          <th>Prezzo</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/aereo.jpg" alt="aereo" style="width:100%"></td>
+          <td>Mandaci a Cuba (in aereo)</td>
+          <td data-label="Disponibile">1.050€</td>
+          <td data-label="Prezzo">1.050€</td>
+          <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+        </tr>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/HotelNacional.jpg" alt="hotel" style="width:100%"></td>
+          <td>Una notte al mitico Hotel Nacional de l'Havana</td>
+          <td data-label="Disponibile">400€</td>
+          <td data-label="Prezzo">400€</td>
+          <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+        </tr>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/CayoLargo.jpg" alt="CayoLargo" style="width:100%"></td>
+          <td>Volo verso la romantica isola di Cayo Largo</td>
+          <td data-label="Disponibile">220€</td>
+          <td data-label="Prezzo">220€</td>
+          <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+        </tr>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/BuenaVista.jpg" alt="BuenaVista" style="width:100%"></td>
+          <td>Cena allo storico Buena Vista Social Club di Cuba</td>
+          <td data-label="Disponibile">80€</td>
+          <td data-label="Prezzo">80€</td>
+          <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+        </tr>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/bodeguita.jpg" alt="bodeguita" style="width:100%"></td>
+          <td>Pranzo con aperitivo di mojito alla Bodeguita del Medio</td>
+          <td data-label="Disponibile">40€</td>
+          <td data-label="Prezzo">40€</td>
+          <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+        </tr>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/colonna.jpg" alt="colonna" style="width:30%"></td>
+          <td>Regalaci le colonne del porticato</td>
+          <td data-label="Disponibile">1.470€</td>
+          <td data-label="Prezzo">1.470€</td>
+          <td class="w3-center"><a href="#id01" class="w3-button gbutton">Regala</a></td>
+        </tr>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/mattoni.jpg" alt="mattoni" style="width:60%"></td>
+          <td>Finanzia i muri del porticato</td>
+          <td data-label="Disponibile">1.700€</td>
+          <td data-label="Prezzo">1.700€</td>
+          <td class="w3-center"><button onclick="document.getElementById('id01').style.display='block'" class="w3-button gbutton">Regala</button></td>
+        </tr>
+        <tr>
+          <td class="w3-center"><img class="w3-round-large" src="images/finestra.jpg" alt="finestra" style="width:100%"></td>
+          <td>Aiutaci ad acquistare le 3 porte finestre scorrevoli</td>
+          <td data-label="Disponibile">2.400€</td>
+          <td data-label="Prezzo">2.400€</td>
+          <td class="w3-center"><button class="w3-button gbutton">Regala</button></td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </div>
