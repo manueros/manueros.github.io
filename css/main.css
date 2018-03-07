@@ -1,6 +1,9 @@
 body,h1,h2{font-family: "Raleway", sans-serif}
+
 body, html {height: 100%}
+
 p {line-height: 2}
+
 .bgimg, .bgimg2 {
   min-height: 100%;
   background-position: center;
@@ -10,18 +13,19 @@ p {line-height: 2}
 .landing {
   background-color: white;
   text-align: center;
+  width: 60vw;
 }
 
 .title {
   background-color: white;
   text-align: center;
-  font-size: 5.0vw;
+  font-size: 4.0vw;
 }
 
 .subtitle {
   background-color: white;
   text-align: center;
-  font-size: 3.0vw;
+  font-size: 2.0vw;
 }
 
 .logo {
@@ -31,11 +35,25 @@ p {line-height: 2}
 }
 
 ul {
-  margin-left: -2.5em;
+  padding-left: 0;
   list-style-type: none;
 }
 
 li {
+  display: inline-block;
+  font-size: 2.0vw;
+  min-width: 10vw;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+}
+
+li span {
+  display: block;
+  font-size: 4.0vw;
+}
+
+#countdown {
   display: inline-block;
   font-size: 1.5vw;
   width: 10vw;
@@ -43,32 +61,32 @@ li {
   color: black;
 }
 
-li span {
+#countdown span {
   display: block;
   font-size: 4.5vw;
 }
 
-#gift {
+#gtable {
   border-collapse: collapse;
   width: 100%;
   text-align: left;
 }
 
-#gift td, #gift th {
+#gtable td, #gtable th {
   /*border: 1px solid #ddd;*/
   padding: 8px;
 }
 
-#gift tr:nth-child(even){background-color: #f2f2f2;}
+#gtable tr:nth-child(even){background-color: #f2f2f2;}
 
-#gift tr:hover {background-color: #ddd;}
+#gtable tr:hover {background-color: #ddd;}
 
-#gift td {
+#gtable td {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-#gift th{
+#gtable th{
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: #4CAF50;
@@ -105,14 +123,14 @@ li span {
 }
 
 
-@media screen and (max-width: 600px) {
-  #gift {
+@media screen and (max-width: 500px) {
+  #gtable {
     border: 0;
   }
-  #gift caption {
+  #gtable caption {
     font-size: 1.3em;
   }
-  #gift thead {
+  #gtable thead {
     border: none;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -122,17 +140,17 @@ li span {
     position: absolute;
     width: 1px;
   }
-  #gift tr {
+  #gtable tr {
     display: block;
     margin-bottom: .625em;
   }
-  #gift td {
+  #gtable td {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
     text-align: right;
   }
-  #gift td:before {
+  #gtable td:before {
     /*
     * aria-label has no advantage, it won't be read inside a table
     content: attr(aria-label);
@@ -142,7 +160,7 @@ li span {
     font-weight: bold;
     text-transform: uppercase;
   }
-  #gift td:last-child {
+  #gtable td:last-child {
     border-bottom: 0;
   }
 }
