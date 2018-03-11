@@ -14,11 +14,16 @@ let countDown = new Date('2018-04-22T11:00:00').getTime(),
     document.getElementById('minutes').innerHTML = Math.floor((distance % (hour)) / (minute)),
     document.getElementById('seconds').innerHTML = Math.floor((distance % (minute)) / second);
         
-        //do something later when date is reached
-        //if (distance < 0) {
-        //  clearInterval(x);
-        //  'IT'S MY BIRTHDAY!;
-        //}
+    //do something later when date is reached
+    if (distance < 0) {
+      clearInterval(x);
+    }
   
   }, second)
 
+function giftModal(giftId) {
+  document.getElementById('idGift').style.display='block';
+  document.getElementById('giftName').innerHTML=document.getElementById(giftId).textContent;
+  document.getElementById('giftNameSmall').innerHTML=document.getElementById(giftId).textContent;
+
+}

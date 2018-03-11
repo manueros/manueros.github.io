@@ -93,6 +93,17 @@ li span {
   color: white;
 }
 
+#modal table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#modal td  {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
 .meteo {
   background-color: transparent;
@@ -165,7 +176,7 @@ li span {
   }
   li {
     min-width: 20vw;
-  }
+  }  
 }
 
 /* Bigger than 325 */
