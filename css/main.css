@@ -163,6 +163,9 @@ li span {
   #gtable td:last-child {
     border-bottom: 0;
   }
+  li {
+    min-width: 20vw;
+  }
 }
 
 /* Bigger than 325 */
