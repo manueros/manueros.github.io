@@ -10,10 +10,14 @@ p {line-height: 2}
   background-size: cover;
 }
 
-.landing {
+.countdown {
   background-color: white;
   text-align: center;
   width: 60vw;
+}
+
+#countdownExpired {
+  font-size: 4.0vw;
 }
 
 .title {
