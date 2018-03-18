@@ -31,5 +31,14 @@ function giftModal(giftId) {
   document.getElementById('idGift').style.display='block';
   document.getElementById('giftName').innerHTML=document.getElementById(giftId).textContent;
   document.getElementById('giftNameSmall').innerHTML=document.getElementById(giftId).textContent;
-
 }
+
+
+!function(d,s,id) {
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)) {
+    js=d.createElement(s);
+    js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
