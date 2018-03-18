@@ -150,6 +150,10 @@ li span {
   border: 2px solid blue;
 }
 
+hr.style1 {
+  border-top: 4px double #4CAF50;
+  text-align: center;
+}
 
 @media screen and (max-width: 600px) {
   #gtable {
